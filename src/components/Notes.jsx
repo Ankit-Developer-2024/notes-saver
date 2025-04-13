@@ -44,7 +44,7 @@ export const Notes = () => {
       <div className='flex flex-col gap-5 mt-5 px-2 '>
 
      {
-         filteredData.length === 0 &&  searchTerm!=='' && <p className='font-bold'>No matches found</p>
+         filteredData.length === 0 &&  searchTerm!=='' && <p className='font-bold'>No data found</p>
      }   
 
 {

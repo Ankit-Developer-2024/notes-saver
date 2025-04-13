@@ -1,12 +1,58 @@
-# React + Vite
+📝 Notes Saver – React Web App
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A simple yet powerful note-taking web application built with React.js, featuring CRUD functionality and localStorage integration for persistent data storage.
 
-Currently, two official plugins are available:
+✅ Features
+🔀 Routing System
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+Seamless navigation using React Router for different pages like home, create, view, and edit notes.
 
-## Expanding the ESLint configuration
+🆕 Create Note
 
-If you are developing a production application, we recommend using TypeScript and enable type-aware lint rules. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+Add new notes with a title and description.
+
+Notes are automatically saved in the browser's local storage.
+
+✏️ Update Note
+
+Edit existing notes with real-time updates.
+
+Ensure your ideas stay current and organized.
+
+👁️ View Note
+
+View full note details on a separate route or modal.
+
+Clean and readable UI to focus on content.
+
+❌ Delete Note
+
+Remove notes that are no longer needed.
+
+Immediate removal from both UI and localStorage.
+
+💾 LocalStorage Integration
+
+Notes are saved directly in the browser, ensuring persistence even after refreshing or reopening the browser.
+
+No backend required.
+
+⚛️ React Hooks
+
+Efficient state management using useState, useEffect, etc.
+
+💡 Clean and Minimal UI
+
+User-friendly interface for a better writing experience.
+
+🛠️ Tech Stack
+React.js
+
+React Router DOM
+
+HTML/CSS
+
+JavaScript (ES6+)
+
+Browser LocalStorage
+
