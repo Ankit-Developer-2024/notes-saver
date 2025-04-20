@@ -8,6 +8,7 @@ import copyIcon from '../assets/copy.png'
 import deleteIcon from '../assets/delete.png'
 import viewIcon from '../assets/view.png'
 import calendarIcon from '../assets/calendar.png'
+import { Link } from 'react-router-dom';
 
 export const Notes = () => {
 
@@ -70,7 +71,7 @@ export const Notes = () => {
                 </div>
                 
                 <div className='border-2 rounded-[4px] border-slate-200 hover:border-yellow-200 place-content-center px-1 cursor-pointer'>
-                <a href={`/notes/${note?._id}`}><img className='w-[20px] h-[20px]' src={viewIcon} alt="view" loading='lazy' /></a>
+                <Link to={`/notes/${note._id}`}><img className='w-[20px] h-[20px]' src={viewIcon} alt="view" loading='lazy' /></Link>
               </div>
 
               <div className='border-2 rounded-[4px] border-slate-200 hover:border-red-200 place-content-center px-1 cursor-pointer'
