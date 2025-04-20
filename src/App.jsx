@@ -6,6 +6,7 @@ import { ViewNotes } from './components/ViewNotes'
 import { Notes } from './components/Notes'
 
 import './App.css'
+import { NotFound } from './components/NotFound'
 
 const router=createBrowserRouter(
   [
@@ -30,6 +31,10 @@ const router=createBrowserRouter(
       <ViewNotes></ViewNotes>
       </>
     },
+    {
+      path:"*",
+      element:<NotFound></NotFound>
+    }
   ]
 )
 
